@@ -1,0 +1,44 @@
+section.container {
+	width: 90%;
+	height: 300px;
+	margin: 10px auto;
+	border: 1px solid #EEEEEE;
+}
+
+#inputText {
+	display: block;
+	width: 30%;
+	margin: 0px auto;
+	border: 1px solid #00CCFF;
+}
+
+#inputButton {
+	display: block;
+	width: 250px;
+	margin: 5px auto;
+}
+
+#inputButton input {
+	width: 100px;
+	height: 30px;
+}
+
+input:first-child {
+	margin-left: 0px;
+	border: 1px solid #00CC00;
+}
+
+input:last-child {
+	margin-left: 45px;
+	border: 1px solid #C12E2A;
+}
+
+.spanStyle {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100px;
+	height: 30px;
+	color: #00CC00;
+	margin: 20px;
+}
